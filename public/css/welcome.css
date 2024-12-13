@@ -1,0 +1,88 @@
+/* resources/css/app.css */
+
+/* Estilos globales */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #2b2a27; /* Fondo oscuro */
+    color: #e0c097; /* Texto dorado claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado principal */
+h1 {
+    text-align: center;
+    color: #ffcc00; /* Color amarillo brillante */
+    font-size: 42px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Barra de navegación */
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 30px;
+    background-color: #333333; /* Fondo gris oscuro */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-right .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff; /* Texto blanco */
+}
+
+.navbar-right .btn-login {
+    background-color: #d4a373; /* Dorado claro */
+    border: none;
+}
+
+.navbar-right .btn-login:hover {
+    background-color: #a67c52; /* Dorado oscuro */
+}
+
+.navbar-right .btn-register {
+    background-color: #f39c12; /* Naranja */
+    border: none;
+}
+
+.navbar-right .btn-register:hover {
+    background-color: #e67e22; /* Naranja oscuro */
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 50px;
+    text-align: center;
+    color: #e0c097; /* Texto dorado claro */
+}
+
+/* Texto introductorio */
+.intro-text {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.8;
+}
+
+/* Botón "Jugar Ahora" */
+.btn-play {
+    background-color: #ffcc00; /* Amarillo brillante */
+    color: #3e3b36; /* Texto marrón oscuro */
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-play:hover {
+    background-color: #e5b800; /* Amarillo más oscuro */
+}
+
+
